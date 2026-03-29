@@ -1,0 +1,9 @@
+[smtp]
+host     = "smtp.office365.com"
+port     = 587
+user     = "deine@email.de"
+password = "dein-passwort"   # Alternativ: ENV["SMTP_PASSWORD"] im Code
+
+[mail]
+from = "deine@email.de"
+to   = "deine@email.de"

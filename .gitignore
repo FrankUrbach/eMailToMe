@@ -5,7 +5,7 @@ Manifest.toml
 *.jl.mem
 
 # Konfiguration mit Zugangsdaten – niemals einchecken
-config.toml
+# config.toml
 
 # Laufzeit
 *.log
