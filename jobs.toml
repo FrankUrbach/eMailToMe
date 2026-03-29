@@ -1,0 +1,11 @@
+[[jobs]]
+name         = "Beispiel-Job"
+script       = "scripts/example.jl"
+interval     = "30m"
+max_failures = 3       # erst nach 3 Abstürzen E-Mail senden (0 = sofort)
+
+# [[jobs]]
+# name         = "Tages-Report"
+# script       = "scripts/daily_report.jl"
+# interval     = "1d"
+# max_failures = 0

@@ -1,0 +1,11 @@
+# Julia
+Manifest.toml
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
+
+# Konfiguration mit Zugangsdaten – niemals einchecken
+config.toml
+
+# Laufzeit
+*.log
